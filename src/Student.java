@@ -10,7 +10,7 @@ import java.util.Observer;
 public class Student implements Observer{
 	private String name;
 	private Date midterm;
-	private CheckStatus ch;
+	
 
 	public Student(String aName) {
 		this.name = aName;
